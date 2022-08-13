@@ -54,7 +54,6 @@ a {
 header{
     background-image: url(../images/hamburger.jpg);
     background-size: cover;
-    background-position: center;
     min-height: 100vh;
 }
 /*start nav*/
@@ -228,16 +227,22 @@ header h1{
     letter-spacing: .5px;
 }
 .menu img{
-    width: 400px;
+    width: 450px;
     opacity: .5;
     transition: .5s;
 }
 .menu img:hover{
     opacity: 1;
 }
+@media (max-width: 577px) {
+    .menu img{
+        width: 100%;
+        margin: 0 auto;
+    }
+}
 @media (max-width: 991px) {
     .menu img{
-        margin: auto;
+        margin: 0 auto;
     }
 }
 /*end section menu*/
