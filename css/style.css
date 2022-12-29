@@ -144,7 +144,7 @@ header h1{
     }
 }
 .about img{
-    max-width: 500px;
+    width: 500px;
     opacity: .5;
     transition: .5s;
 }
